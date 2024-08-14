@@ -2,3 +2,32 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'Gouh'
 theme = 'archie'
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/hugoaguirre"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/huugooe"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About me"
+url = "/about"
+weight = 3
