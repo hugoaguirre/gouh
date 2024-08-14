@@ -1,11 +1,19 @@
-baseURL = 'https://example.com'
+baseURL = 'https://hugoaguirre.github.io/gouh'
 languageCode = 'en-us'
 title = 'Gouh'
 theme = 'archie'
 
+# Code highlights
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+
+paginate=3 # articles per page
+
+[params]
+  mode="auto"
+  useCDN=false
+  subtitle="A blog made of my random stuff + info about me"
 
 [[params.social]]
 name = "GitHub"
