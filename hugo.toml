@@ -25,6 +25,11 @@ name = "Twitter"
 icon = "twitter"
 url = "https://twitter.com/huugooe"
 
+[[params.social]]
+name = "Linkedin"
+icon = "linkedin"
+url = "https://mx.linkedin.com/in/hugo-aguirre-parra-11504780"
+
 [[menu.main]]
 name = "Home"
 url = "/"
