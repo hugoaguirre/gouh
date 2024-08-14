@@ -11,7 +11,7 @@ pygmentscodefencesguesssyntax = true
 paginate=3 # articles per page
 
 [params]
-  mode="auto"
+  mode="toggle"
   useCDN=false
   subtitle="A blog made of my random stuff + info about me"
 
