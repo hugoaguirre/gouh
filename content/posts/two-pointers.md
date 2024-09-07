@@ -52,7 +52,7 @@ def bothSides(arr: List[int]):
     if some_condition:
       left += 1
     else:
-      right += 1
+      right -= 1
 
   return
 ```
@@ -78,7 +78,7 @@ def mainIndexBothSides(arr: List[int]):
       if some_coindition:
         left += 1
       else:
-        right += 1
+        right -= 1
   return
 ```
 
@@ -100,10 +100,10 @@ def rightPullsLeft(arr: List[int]):
 
   while right < len(arr):
     if some_condition:
-      right += 1
+      right -= 1
       left += 1
     else:
-      right += 1
+      right -= 1
 ```
 
 
