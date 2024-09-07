@@ -28,7 +28,7 @@ url = "https://twitter.com/huugooe"
 [[params.social]]
 name = "Linkedin"
 icon = "linkedin"
-url = "https://mx.linkedin.com/in/hugo-aguirre-parra-11504780"
+url = "https://mx.linkedin.com/in/hugo-aguirre-parra"
 
 [[menu.main]]
 name = "Home"
@@ -39,6 +39,7 @@ weight = 1
 name = "All posts"
 url = "/posts"
 weight = 2
+contentDir = "content/posts"
 
 [[menu.main]]
 name = "About me"
