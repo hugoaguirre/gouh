@@ -8,9 +8,9 @@ So, I've been grinding LeetCode ([Blind 75](https://leetcode.com/studyplan/leetc
 
 My intention with the knowledge that I get from this grinding is to write down some tips and tricks for the things that I learn.
 
-I won't post solutions to problems or so, instead I will try to talk about each pattern for example: how to use them or when to use them.
+I won't post solutions to problems or so, instead I will try to talk about each pattern I learn. For example: how to use them or when to use them.
 
-My first post of this series of post will be the Two Pointers since this is the most basic approach for DSA.
+My first post of this series will be the Two Pointers since this is the most basic approach for DSA.
 
 Keep grinding folks!
 Cheers.
