@@ -21,7 +21,9 @@ class Node:
     self.value = value
     self.next = next
 
+
 def hasCycle(head: Node) -> bool:
+  """ Returns True or False whether a cycle is found in a linked list """
   # two pointers, fast (hare) and slow (tortoise):
   fast, slow = head, head
 
@@ -35,8 +37,7 @@ def hasCycle(head: Node) -> bool:
 
   return False
 ```
-
-
+<br>
 Also the algorithm helps us to find the middle Node of a linked list in `O(N)` time complexity and time `O(1)` constant space
 
 ## Find mid point of a linked list
@@ -47,17 +48,20 @@ class Node:
     self.value = value
     self.next = next
 
+
 def findMiddle(head: Node) -> Node:
+  """ Returns the mid point of a linked list """
   fast, slow = head, head
 
-  # if no cycle, fast will be None at the time slow reaches the mid point of the linked list
+  # if no cycle, fast will be None at the time
+  # slow reaches the mid point of the linked list
   while fast is not None and fast.next is not None:
     fast = fast.next.next
     slow = slow.next
 
   return slow
 ```
-
+<br>
 So, with this said, we can calculate the node that starts the cycle in a linked list
 
 ## Determine which node starts the cycle in a linked list
@@ -68,7 +72,9 @@ class Node:
     self.value = value
     self.next = next
 
+
 def findCycleStart(head: Node) -> Node:
+  """ Returns the Node that indicates the begin of the linked list cycle  """
   fast, slow = head, head
 
   while fast is not None and fast.next is not None:
@@ -82,7 +88,9 @@ def findCycleStart(head: Node) -> Node:
 
   return getCycleStart(head, cycle_length)
 
+
 def findCycleLength(slow: Node) -> int:
+  """ Returns the length of the linked list cycle """
   current = slow
   cycle_length = 0
 
@@ -98,6 +106,7 @@ def findCycleLength(slow: Node) -> int:
 
 
 def getCycleStart(head: Node, cycle_length: int) -> Node:
+  """ Returns the Node that starts the cycle"""
   fast, slow = head, head
 
   # move fast pointer  `cycle_length` jumps and pointers will meet again
@@ -112,3 +121,4 @@ def getCycleStart(head: Node, cycle_length: int) -> Node:
 
   return slow
 ```
+<br>
