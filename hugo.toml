@@ -1,4 +1,4 @@
-baseURL = 'https://hugoaguirre.github.io/gouh'
+baseURL = 'https://hugoaguirre.github.io'
 languageCode = 'en-us'
 title = 'Gouh'
 theme = 'archie'

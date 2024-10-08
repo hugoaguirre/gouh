@@ -1,5 +1,5 @@
 +++
-title = 'Two Pointers'
+title = 'DSA: Two Pointers'
 date = 2024-09-06T22:31:48-06:00
 draft = false
 +++
