@@ -75,4 +75,5 @@ The previous list of features could be understood as the pros of using API Gatew
 # What's the difference between a LB and an API Gateway?
 
 API Gateway **routes** requests to the appropriate microservice
+
 Load Balancer **distributes** the requests evenly across a group of backend servers

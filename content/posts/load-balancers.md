@@ -15,7 +15,8 @@ Load Balancers (LB) are a crucial component for System Design. They are basicall
 ## How does a request get processed by a Load Balancer?
 
 1. Request is received
-2. Request then is evaluated:  <br>
+2. Request then is evaluated:
+
   LB determines which server or resource should handle the request using a balancing algorithm taking in consideration the following things:  
     - Server capacity and response time
     - Number of active connections
