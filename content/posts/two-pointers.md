@@ -9,10 +9,12 @@ Two Pointer is basically what the name says. You've got to use two variables to 
 This approach excels in the following:
 
 ## Data structures
+
 - Arrays (sorted or unsorted)
 - Linked lists
 
 ## Problem types
+
 - Find a set of elements that fulfill certain constraints
   - Pairs, Triplets, Sub-arrays.
 
@@ -23,15 +25,17 @@ The most common problem types you'll encounter are something like this:
 > Given an array of unsorted numbers and a target number, find a triplet in the array whose sum is as close to the target number as possible.
 
 ## Tips and observations
+
 I think the idea is pretty clear right? Either the array is sorted or not, you could always sort it with a pre-built in function and start manipulating the pointers at your wish.
 
 A rule of thumb that I've been telling myself to follow is to **never name those pointers `i` and `j`**. Instead, name them `left` and `right`. Those names are much clear and will simplify things in your head.
 
 ## Common code structure
+
 For simplicity sake, I'll write things in Python.
 
-
 ### Pointer at the beginning and end of an array
+
 ```python
 from typing import List
 
@@ -58,6 +62,7 @@ def bothSides(arr: List[int]):
 ```
 
 ### One main index and pointers at both ends
+
 ```python
 from typing import List
 
@@ -105,7 +110,6 @@ def rightPullsLeft(arr: List[int]):
     else:
       right += 1
 ```
-
 
 Alright, that's it for Two Pointers.
 

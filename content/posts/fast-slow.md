@@ -5,6 +5,7 @@ draft = false
 +++
 
 This is a pattern that uses two pointers approach, however there's a special thing about this pattern:
+
 - One pointer moves faster than the other.
 
 The Fast and Slow pattern follows the [Hare and Tortoise algorithm](https://en.wikipedia.org/wiki/Cycle_detection).
@@ -37,6 +38,7 @@ def hasCycle(head: Node) -> bool:
 
   return False
 ```
+
 <br>
 Also the algorithm helps us to find the middle Node of a linked list in `O(N)` time complexity and time `O(1)` constant space
 
@@ -61,6 +63,7 @@ def findMiddle(head: Node) -> Node:
 
   return slow
 ```
+
 <br>
 So, with this said, we can calculate the node that starts the cycle in a linked list
 
@@ -121,6 +124,5 @@ def getCycleStart(head: Node, cycle_length: int) -> Node:
 
   return slow
 ```
+
 <br>
-
-
