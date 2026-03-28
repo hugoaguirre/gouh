@@ -124,3 +124,7 @@ url = "https://github.com/hugoaguirre"
 [[params.socialIcons]]
 name = "twitter"
 url = "https://twitter.com"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/hugo-aguirre-parra/"
