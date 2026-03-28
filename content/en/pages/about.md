@@ -4,10 +4,10 @@ type: page
 draft: false
 ---
 
-I'm a Cloud Software Engineer at Intel that helped building [Intel's Performance Hub](https://performancehub.intel.com) backend being a co-owner of one of the core microservices that interacted with AWS SSM to safely execute workloads on customer managed instances. 
+Hi there!
 
-Currently I am focusing more in the CI/CD side of projects and learning how to make a devs life easier within my organization.
+I'm Hugo, a Software Engineer that has been working in several industries since my career path change from being a Senior Embedded Software Engineer.
 
-On my early days I started as an Embedded Software Engineer at Continental Automotive working with Qualcomm's chipsets but that's a long and dark story for another time.
+Currently, I'm making contributions to Google's AI Framework named: [Genkit](https://genkit.dev) in the Go runtime. Go check it out, it's pretty awesome.
 
-In my free time I play the accordion and tennis, so you might see random posts here and there about that.
+In my free time I play the accordion and tennis. I'm looking forward to be ranked 6.x in UTR so I'm very much into it.
