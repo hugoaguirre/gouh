@@ -12,18 +12,16 @@ Load Balancers (LB) are a crucial component for System Design. They are basicall
 - Between web servers and internal platform layer
 - Between platform layer and databases
 
+![Landscape](load_balancers.png)
+
 ## How does a request get processed by a Load Balancer?
 
 1. Request is received
 2. Request then is evaluated:
 
-  LB determines which server or resource should handle the request using a balancing algorithm taking in consideration the following things:  
-    - Server capacity and response time
-    - Number of active connections
-    - Geographic location
-3. LB forwards request to the server
-4. Server responds back to the LB
-5. LB processes response and sends it back to the user/client
+LB determines which server or resource should handle the request using a balancing algorithm taking in consideration the following things:
+
+- Server capacity and response time - Number of active connections - Geographic location 3. LB forwards request to the server 4. Server responds back to the LB 5. LB processes response and sends it back to the user/client
 
 ## Load Balancer Algorithms
 
