@@ -1,3 +1,9 @@
++++
+title = 'SD: System Design Interview'
+date = 2026-04-01T10:26:33-06:00
+draft = false
++++
+
 # System Design Interview
 
 ## What to expect from a System Design Interview?
